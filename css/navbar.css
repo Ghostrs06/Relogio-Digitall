@@ -1,0 +1,1 @@
+nav{display:flex;align-items:end;justify-content:flex-end;padding:10px}nav #cor{background:#101017;padding:5px;border-radius:20px;border:1px solid #1e90ff}nav #cor button{background:transparent;border-radius:50%;border:none;outline:none;padding:5px;cursor:pointer}nav #cor button .fa-solid{color:#f0f8ff}nav #cor button #sun{color:#ff0}

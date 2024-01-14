@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/global.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <title>Relogio Digital</title>
+    </head>
+    <body>
+        <nav>
+            <div id="cor">
+                <button id="escuro" onclick="corEscura()"><i class="fa-solid fa-moon" id="moon"></i></button>
+                <button id="claro" onclick="corClara()"><i class="fa-solid fa-sun" id="sun"></i></button>
+            </div>
+        </nav>
+        <main>
+            <div class="back">
+                <div id="div-data">
+                    <div class="linha"></div>
+                    <p id="dia"></p>
+                    <div class="linha"></div>
+                </div>
+                <div id="relogio">
+                    <span id="horas" class="num"></span>
+                    <span>:</span>
+                    <span id="minutos" class="num"></span>
+                    <span>:</span>
+                    <span id="segundos" class="num"></span>
+                </div>
+                <div id="div-data">
+                    <div class="linha"></div>
+                    <p id="data"></p>
+                    <div class="linha"></div>
+                </div>
+            </div>
+        </main>
+        <script src="../js/relogio.js"></script>
+        <script src="../js/color.js"></script>
+    </body>
+</html>

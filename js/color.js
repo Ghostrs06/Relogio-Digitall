@@ -1,0 +1,1 @@
+var moon=document.getElementById("moon"),sun=document.getElementById("sun");function corEscura(){document.body.style.background="#121214",moon.style.color="yellow",sun.style.color="aliceblue"}function corClara(){document.body.style.background="aliceblue",moon.style.color="aliceblue",sun.style.color="yellow"}
